@@ -1,0 +1,38 @@
+/* 
+ * File: mystyle.css
+ * Author: Kyle Klausen
+ * Date: 11/28/25
+ * Class: CSD-420
+ * Assignment: Module-7
+ * Description: CSS styles for JavaFX circles demo
+ */
+
+/* Class: white fill, black stroke */
+.plaincircle {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+/* Class: thicker dashed border stroke (optional extra styling) */
+.circleborder {
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+}
+
+/* Class: border for container (if used on a Pane) */
+.border {
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}
+
+/* ID: red circle style */
+#redcircle {
+    -fx-fill: red;
+    -fx-stroke: red;
+}
+
+/* ID: green circle style */
+#greencircle {
+    -fx-fill: green;
+    -fx-stroke: green;
+}
